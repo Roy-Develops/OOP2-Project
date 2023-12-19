@@ -1,0 +1,11 @@
+First Name: roy
+Last Name: abdel nour
+Date and Time: 14-12-2023 22:10:05
+
+Total Price: 160.0
+Products: 
+Name	Price	Quantity
+cowboy hat	10.0	3	
+shirt	15.0	2	
+hoodie	20.0	5	
+Tax: 17.60Total Price with Tax: 177.60

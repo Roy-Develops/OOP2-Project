@@ -1,0 +1,17 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "e:\\JavaFX\\javafx-sdk-21\\lib\\javafx.base.jar",
+    "e:\\JavaFX\\javafx-sdk-21\\lib\\javafx.controls.jar",
+    "e:\\JavaFX\\javafx-sdk-21\\lib\\javafx.fxml.jar",
+    "e:\\JavaFX\\javafx-sdk-21\\lib\\javafx.graphics.jar",
+    "e:\\JavaFX\\javafx-sdk-21\\lib\\javafx.media.jar",
+    "e:\\JavaFX\\javafx-sdk-21\\lib\\javafx.swing.jar",
+    "e:\\JavaFX\\javafx-sdk-21\\lib\\javafx.web.jar",
+    "e:\\JavaFX\\javafx-sdk-21\\lib\\javafx-swt.jar",
+    "e:\\Jconnector-MySQL\\mysql-connector-j-8.2.0\\mysql-connector-j-8.2.0\\mysql-connector-j-8.2.0.jar",
+    "e:\\PDFBox\\pdfbox-app-3.0.1.jar",
+    "e:\\PDFBox\\fontbox-3.0.1.jar"
+  ],
+  "cSpell.words": ["homegrid", "Upgrid"]
+}

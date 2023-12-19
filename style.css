@@ -1,0 +1,133 @@
+/* General application background and theme */
+.root {
+  -fx-background-color: #f4f4f4;
+  -fx-font-family: "Arial", sans-serif;
+}
+
+/* Styling for Buttons - sleek and modern */
+.button {
+  -fx-background-color: #5c6bc0; /* stylish blue */
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-border-radius: 4px;
+  -fx-padding: 10px 20px;
+  -fx-cursor: hand;
+}
+
+/* Hover effect for Buttons */
+.button:hover {
+  -fx-background-color: #3949ab; /* darker blue for hover */
+}
+
+/* Styling for Labels */
+.label {
+  -fx-font-size: 14px;
+  -fx-text-fill: #333; /* dark grey for better readability */
+}
+
+/* Styling for TextFields and PasswordFields */
+.text-field,
+.password-field {
+  -fx-border-color: #c0c0c0; /* light grey border */
+  -fx-border-radius: 4px;
+}
+
+/* Styling for TableView - crisp and clean */
+.table-view {
+  -fx-background-color: white;
+}
+
+/* Header background in TableView */
+.table-view .column-header-background {
+  -fx-background-color: #5c6bc0; /* matching the buttons */
+  -fx-text-fill: white;
+}
+
+/* Rows in TableView */
+.table-row-cell {
+  -fx-background-color: white;
+  -fx-border-color: #f0f0f0; /* very light grey border for rows */
+}
+.table-row-cell:selected {
+  -fx-background-color: #9fa8da; /* Lighter shade for selection */
+  -fx-text-fill: black; /* Ensure text is visible */
+}
+
+/* Styling for focused cell in TableView */
+.table-cell:focused {
+  -fx-border-color: #3949ab; /* Darker border for focused cell */
+  -fx-border-width: 2px;
+  -fx-background-color: #c5cae9; /* Light background for focused cell */
+  -fx-text-fill: black; /* Ensure text is visible */
+}
+.table-row-cell:empty {
+  -fx-background-color: transparent;
+}
+/* Ensure text in header is always visible */
+.table-view .column-header .label {
+  -fx-text-fill: white;
+}
+/* Styling for MenuBar */
+.menu-bar {
+  -fx-background-color: #3949ab; /* a darker shade for contrast */
+  -fx-text-fill: white;
+}
+
+/* Styling for MenuItems */
+.menu-item {
+  -fx-background-color: white;
+  -fx-text-fill: black;
+}
+
+/* Hover effect for MenuItems */
+.menu-item:hover {
+  -fx-background-color: #eeeeee; /* light grey for hover */
+}
+
+/* Styling for GridPane */
+.grid-pane {
+  -fx-padding: 10px;
+  -fx-hgap: 10px;
+  -fx-vgap: 10px;
+}
+
+/* Spinner Base Style */
+.spinner {
+  -fx-max-width: 80px; /* Set the maximum width */
+  -fx-font-size: 14px;
+  -fx-background-color: #f4f4f4;
+  -fx-border-color: #c0c0c0;
+  -fx-border-radius: 5px;
+  -fx-padding: 3px; /* Adjust padding if necessary */
+}
+
+/* Spinner Button Style */
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+  -fx-background-color: #5c6bc0; /* Stylish blue for buttons */
+  -fx-text-fill: white; /* White text for contrast */
+  -fx-background-insets: 0, 0, 1, 2; /* Insets for background positioning */
+}
+
+/* Spinner Arrow Style */
+.spinner .increment-arrow,
+.spinner .decrement-arrow {
+  -fx-background-color: white; /* White arrows */
+}
+
+/* Spinner Editor Style (Text field part of the spinner) */
+.spinner .text-field {
+  -fx-background-color: transparent; /* Transparent background */
+  -fx-text-fill: #333; /* Dark text for readability */
+}
+
+/* Spinner Focused Style */
+.spinner:focused {
+  -fx-border-color: #3949ab; /* Darker blue border for focus */
+  -fx-border-width: 2px; /* Thicker border on focus */
+}
+.christmas-text {
+  -fx-font-family: "Comic Sans MS", cursive, sans-serif; /* Decorative font */
+  -fx-font-size: 24px; /* Larger font size */
+  -fx-fill: red; /* Red font color */
+}

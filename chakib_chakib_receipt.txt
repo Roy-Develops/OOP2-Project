@@ -1,0 +1,13 @@
+First Name: chakib
+Last Name: chakib
+Date and Time: 15-12-2023 21:23:56
+
+Total Price: 391.0
+Products: 
+Name	Price	Quantity
+cowboy hat	10.0	10	
+shoes	12.0	10	
+shirt	15.0	4	
+hoodie	3.0	7	
+jacket	30.0	3	
+Tax: 43.01Total Price with Tax: 434.01
